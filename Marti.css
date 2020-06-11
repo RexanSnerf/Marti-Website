@@ -1,0 +1,238 @@
+/*nächstes mal übersichtlicher gestalten, man kann auch mehrere Sachen auf einmal verändern*/
+#div1 {
+    background-color: red;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 0px; /*freier Abstand zum Text darunter*/
+}
+
+#div2 {
+    background-color: rgb(33, 175, 33);
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.div1 {
+    background-color: slateblue;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 0px; 
+}
+
+#rund {
+    width: 530px;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.Profil {
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    left: 580;
+    width: 700px;
+}
+
+.section {
+    width: 1300px;
+    height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!!!*/
+    float: left;
+}
+
+.KleinerText {
+    width: 1300px;
+    height: 339px;
+    float: left;
+}
+
+.aside {
+    width:  528px;
+    height: 666px;
+    float: right;
+}
+
+.KleinesBild {
+    width: 528px;
+    height: 339px;
+    float: right;
+}
+
+.Musikfooter {
+    clear: both;
+}
+
+.MemesFooter {
+    background-color: rgb(151, 151, 151);
+    height: 70px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#Meme {  
+    display: none;
+    width: 1800px;
+    height: 2530px;
+    border-style: solid;
+    border-color: #1ed760;
+    border-width: 1px;
+}
+
+.MemesHeader {
+    border-style: solid;
+    background-color: rgb(151, 151, 151); 
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+.Memes1 { /*Bild links*/
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.Memes2 { /*Bild mitte*/
+    width: 600px;
+    height: 600px;
+    float: left; /*das ergibt irgendwie keinen sinn für mich, aber es klappt so wie ich es will.*/
+}
+
+.Memes3 { /*Bild rechts*/
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+
+.Memes4 { /*Bild mitte, Um ein Bild weiter mittig zu platzieren*/
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    float: left; 
+}
+
+.Likes {
+    width: 1800px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    display: flex;
+}
+
+#LikesPic1 {
+    font-size: 32px;
+    position: relative;
+    left: 70px;
+}
+
+.Upvoten {
+    position: absolute;
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+}
+
+.Downvoten {
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    left: 110px;
+}
+
+.Upvoten:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.Downvoten:hover {
+    height: 45px;
+    width: 45px;
+}
+
+#b1 {
+    background-color: yellow;
+}
+
+#a1 {
+    position: absolute;
+    right: 1200;
+}
+
+#a2 {
+    position: absolute;
+    right: 650;
+    top: 8px;
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px; /*Abstand zur Überschrift*/
+    transform: translate(-50%, -50%);
+    /*display: flex; (seitlich)*/
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #55acee;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #1ed760;
+}
+
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #FF5700;
+}
+
+.social-menu ul li:nth-child(6) a:hover {
+    background-color: #6441a5;
+}
+
+.social-menu ul li:nth-child(7) a:hover {
+    background-color: #F48024;
+}
+
+.social-menu ul li:nth-child(8) a:hover {
+    background-color: #000000;
+}
