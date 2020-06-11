@@ -1,3 +1,16 @@
+var SideBarClose = true;
+
+function openSidebar() {
+    if (SideBarClose == true) {
+        document.getElementById("sideBar").style.display = "block"
+        SideBarClose = false;
+    }
+    else {
+        document.getElementById("sideBar").style.display = "none"
+        SideBarClose = true;
+    }
+}
+
 function Start() {
     setTimeout(function(){
         alert("If u are using this website with a phone, pls switch to a PC.") //Ich benutzte es nur auf der Memes.html Seite, es ist aber eigentlich für die ganze Seite gedacht, ich wollte es also erst auf der Start Seite haben. Jedoch empfinde ich es als nervig, wenn man jedes mal auf die Startseite geht und diesen Alert bekommt.
