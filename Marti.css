@@ -47,7 +47,6 @@ body {
     display: none;
     float: left;
     width: 240px;
-    height: 1500px;
     z-index: 2;
     top: -10px;
     left: -30px;
@@ -56,8 +55,15 @@ body {
 .sideBarTextBox {
     border-style: solid;
     border-color: white;
+    background-color: yellow;
     border-width: 1px;
+    height: 55px;
     width: 120px;
+}
+
+.sideBarTextBox:hover {
+    width: 130px;
+    height: 60px;
 }
 
 .Profil {
@@ -68,32 +74,75 @@ body {
     width: 700px;
 }
 
+.MainBodyMusic {
+    margin-left: 277px;
+    margin-right: 278px;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .section {
-    width: 1300px;
-    height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!!!*/
+    width: 800px;
+    height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!1!*/
+    border-style: solid;
+    border-width: 1px;
     float: left;
 }
 
 .KleinerText {
-    width: 1300px;
+    width: 800px;
     height: 339px;
     float: left;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
 }
 
 .aside {
     width:  528px;
     height: 666px;
+    border-top: solid;
+    border-width: 1px;
     float: right;
 }
 
 .KleinesBild {
     width: 528px;
     height: 339px;
+    border-top: solid;
+    border-width: 1px;
     float: right;
 }
 
 .Musikfooter {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
     clear: both;
+}
+
+.TextMittePositionieren {
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.kleinerTextMittePositionieren {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.MitteMusikBild {
+    margin-top: 4%;
+}
+
+.MittekleinesMusikBild {
+    margin-left: 15%;
 }
 
 .MemesFooter {
@@ -187,8 +236,12 @@ body {
     width: 45px;
 }
 
-#b1 {
+#Rexan {
     background-color: yellow;
+}
+
+#Rexan::selection { /*nicht relevant für website, aber interessant*/
+    background-color: green;
 }
 
 #a1 {
@@ -202,13 +255,15 @@ body {
     top: 8px;
 }
 
+/*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
+
 .social-menu ul {
     position: absolute;
     top: 50%;
     left: 50%;
     padding: 0;
     margin: 0;
-    margin-top: 60px; /*Abstand zur Überschrift*/
+    margin-top: 70px; /*Abstand zur Überschrift*/
     transform: translate(-50%, -50%);
     /*display: flex; (seitlich)*/
 }
