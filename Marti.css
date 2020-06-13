@@ -3,7 +3,7 @@ body {
     z-index: 1;
 }
 
-#div1 {
+#HauptÜberschrift {
     background-color: red;
     margin-top: 0px;
     border-style: solid;
@@ -19,7 +19,7 @@ body {
     height: 20px;
 }
 
-.div1 {
+.NebenÜberschrift {
     background-color: slateblue;
     margin-top: 0px;
     border-style: solid;
@@ -253,6 +253,21 @@ body {
     position: absolute;
     right: 650;
     top: 8px;
+}
+
+.SkillsBody {
+    background-image:url(LakeHorizon.jpg);
+}
+
+.TextBody {
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
