@@ -11,6 +11,16 @@ body {
     margin-bottom: 0px; /*freier Abstand zum Text darunter*/
 }
 
+.MartiTextBody {
+    background-color: #000000;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
 #div2 {
     background-color: rgb(33, 175, 33);
     color: black;
@@ -25,6 +35,13 @@ body {
     border-style: solid;
     border-width: 4px;
     margin-bottom: 0px; 
+}
+
+.NebenÜberschrift2 {
+    width: 720px;
+    background-color: rgb(150, 139, 224);
+    border-style: solid;
+    border-width: 2px;
 }
 
 #rund {
@@ -46,6 +63,7 @@ body {
     color: white;
     display: none;
     float: left;
+    height: 1fr;
     width: 240px;
     z-index: 2;
     top: -10px;
@@ -67,8 +85,11 @@ body {
 }
 
 .Profil {
+    background-color: white;
+    color: #000000;
     border-style: solid;
     border-width: 1px;
+    border-color: white;
     position: relative;
     left: 580;
     width: 700px;
@@ -163,6 +184,22 @@ body {
     border-width: 1px;
 }
 
+.DarkModeBody {
+    background-color: #000000;
+    color: white;
+}
+
+.GamingText {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.7; /*Transparenz*/
+}
+
 .MemesHeader {
     border-style: solid;
     background-color: rgb(151, 151, 151); 
@@ -202,6 +239,7 @@ body {
     border-width: 1px;
     position: relative;
     display: flex;
+    background-color: rgb(151, 151, 151);
 }
 
 #LikesPic1 {
@@ -237,11 +275,11 @@ body {
 }
 
 #Rexan {
-    background-color: yellow;
+    background-color: green;
 }
 
 #Rexan::selection { /*nicht relevant für website, aber interessant*/
-    background-color: green;
+    background-color: blueviolet;
 }
 
 #a1 {
@@ -255,7 +293,7 @@ body {
     top: 8px;
 }
 
-.SkillsBody {
+.LakeBody {
     background-image:url(LakeHorizon.jpg);
 }
 
@@ -268,6 +306,137 @@ body {
     margin-bottom: 25px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.Blog {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Links {
+    float: left;
+}
+
+.Rechts {
+    float: right;
+}
+
+.NewState {
+    color: white;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 17px;
+}
+
+.NewPost {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #000000;
+    color: white;
+}
+
+.NewPostDatum {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.NewPostTitle {
+    width: 500px;
+    margin-left: 10px;
+    float: left;
+}
+
+.NewPostPicture {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.NewPostText {
+    width: 600px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+
+.OldState {
+    color: white;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.OldPost {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    width: 640px;
+    margin-top: 15px;
+    background-color: #000000;
+    color: white;
+}
+
+.OldPostDatum {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.OldPostTitle {
+    width: 290px;
+    font-size: 17px;
+    margin-left: 10px;
+
+}
+
+.OldPostText {
+    width: 290px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.OldPostPicture {
+    position: relative;
+    height: 300px;
+    width: 330px;
+    left: 10px;
+}
+
+.Post {
+    width: 1279px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.PostDatum {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.PostTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PostTitle > b {
+    font-size: 20px;
+}
+
+.PostImage {
+    width: 1279px;
+    height: 550px;
+}
+
+.PostText {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
