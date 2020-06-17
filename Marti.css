@@ -166,15 +166,6 @@ body {
     margin-left: 15%;
 }
 
-.MemesFooter {
-    background-color: rgb(151, 151, 151);
-    height: 70px;
-    width: 300px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-}
-
 #Meme {  
     display: none;
     width: 1800px;
