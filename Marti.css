@@ -430,7 +430,37 @@ body {
     margin-bottom: 10px;
 }
 
+.loader {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: white;
+    justify-content: center;  /*Position mitte*/
+    align-items: center;
+}
+
+.loader > img {
+    width: 120px;
+}
+
+
 /*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
 
 .social-menu ul {
     position: absolute;

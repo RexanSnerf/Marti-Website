@@ -67,3 +67,10 @@ function Start1() {
     localStorage.getItem("likesPic1");
     document.getElementById("LikesPic1").innerHTML = likesPic1;
 }
+
+//so gut wie alles unter diesem Kommentar ist nicht von mir selbst
+
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
