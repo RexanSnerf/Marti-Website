@@ -324,7 +324,7 @@ body {
     cursor: pointer;
     border-style: solid;
     border-width: 1px;
-    background-color: #000000;
+    background-color: #313131;
     color: white;
 }
 
@@ -356,7 +356,7 @@ body {
 
 .OldState {
     color: white;
-    background-color: #000000;
+    background-color: #313131;
     border-style: solid;
     border-width: 1px;
 }
@@ -445,6 +445,15 @@ body {
 
 .loader > img {
     width: 120px;
+}
+
+.SlideContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.Slide {
+    display: flex;
 }
 
 
