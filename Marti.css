@@ -314,7 +314,7 @@ body {
 
 .NewState {
     color: white;
-    background-color: #000000;
+    background-color: #313131;
     border-style: solid;
     border-width: 1px;
     font-size: 17px;
@@ -367,7 +367,7 @@ body {
     border-width: 1px;
     width: 640px;
     margin-top: 15px;
-    background-color: #000000;
+    background-color: #313131;
     color: white;
 }
 
