@@ -1,0 +1,569 @@
+/*nächstes mal übersichtlicher gestalten, man kann auch mehrere Sachen auf einmal verändern*/
+body {
+    z-index: 1;
+}
+
+#HauptÜberschrift {
+    background-color: red;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 0px; /*freier Abstand zum Text darunter*/
+}
+
+.MartiTextBody {
+    background-color: #000000;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+#div2 {
+    background-color: rgb(33, 175, 33);
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 20px;
+}
+
+.NebenÜberschrift {
+    background-color: slateblue;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 0px; 
+}
+
+.NebenÜberschrift2 {
+    width: 720px;
+    background-color: rgb(150, 139, 224);
+    border-style: solid;
+    border-width: 2px;
+}
+
+#rund {
+    width: 530px;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.menu {
+    position: relative;
+    background-color: rgb(33, 175, 33);
+    left: 1850px;
+    top: -17px;
+}
+
+#sideBar {
+    position: absolute;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: none;
+    float: left;
+    height: 1fr;
+    width: 240px;
+    z-index: 2;
+    top: -10px;
+    left: -30px;
+}
+
+.sideBarTextBox {
+    border-style: solid;
+    border-color: white;
+    background-color: yellow;
+    border-width: 1px;
+    height: 55px;
+    width: 120px;
+}
+
+.sideBarTextBox:hover {
+    width: 130px;
+    height: 60px;
+}
+
+.Profil {
+    background-color: white;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    position: relative;
+    left: 580;
+    width: 700px;
+}
+
+.MainBodyMusic {
+    margin-left: 277px;
+    margin-right: 278px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.section {
+    width: 800px;
+    height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!1!*/
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+}
+
+.KleinerText {
+    width: 800px;
+    height: 339px;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+}
+
+.aside {
+    width:  528px;
+    height: 666px;
+    border-top: solid;
+    border-width: 1px;
+    float: right;
+}
+
+.KleinesBild {
+    width: 528px;
+    height: 339px;
+    border-top: solid;
+    border-width: 1px;
+    float: right;
+}
+
+.Musikfooter {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+}
+
+.TextMittePositionieren {
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.kleinerTextMittePositionieren {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.MitteMusikBild {
+    margin-top: 4%;
+}
+
+.MittekleinesMusikBild {
+    margin-left: 15%;
+}
+
+#Meme {  
+    display: none;
+    width: 1800px;
+    height: 2530px;
+    border-style: solid;
+    border-color: #1ed760;
+    border-width: 1px;
+}
+
+.DarkModeBody {
+    background-color: #000000;
+    color: white;
+}
+
+.GamingText {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.7; /*Transparenz*/
+}
+
+.MemesHeader {
+    border-style: solid;
+    background-color: rgb(151, 151, 151); 
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+.Memes1 { /*Bild links*/
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.Memes2 { /*Bild mitte*/
+    width: 600px;
+    height: 600px;
+    float: left; /*das ergibt irgendwie keinen sinn für mich, aber es klappt so wie ich es will.*/
+}
+
+.Memes3 { /*Bild rechts*/
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+
+.Memes4 { /*Bild mitte, Um ein Bild weiter mittig zu platzieren*/
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    float: left; 
+}
+
+.Likes {
+    width: 1800px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    display: flex;
+    background-color: rgb(151, 151, 151);
+}
+
+#LikesPic1 {
+    font-size: 32px;
+    position: relative;
+    left: 70px;
+}
+
+.Upvoten {
+    position: absolute;
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+}
+
+.Downvoten {
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    left: 110px;
+}
+
+.Upvoten:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.Downvoten:hover {
+    height: 45px;
+    width: 45px;
+}
+
+#Rexan {
+    background-color: green;
+}
+
+#Rexan::selection { /*nicht relevant für website, aber interessant*/
+    background-color: blueviolet;
+}
+
+#a1 {
+    position: absolute;
+    right: 1200;
+}
+
+#a2 {
+    position: absolute;
+    right: 650;
+    top: 8px;
+}
+
+.LakeBody {
+    background-image:url(Pictures/LakeHorizon.jpg);
+}
+
+.TextBody {
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Blog {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Links {
+    float: left;
+}
+
+.Rechts {
+    float: right;
+}
+
+.NewState {
+    color: white;
+    background-color: #313131;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 17px;
+}
+
+.NewPost {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #313131;
+    color: white;
+}
+
+.NewPostDatum {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.NewPostTitle {
+    width: 500px;
+    margin-left: 10px;
+    float: left;
+}
+
+.NewPostPicture {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.NewPostText {
+    width: 600px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+
+.OldState {
+    color: white;
+    background-color: #313131;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.OldPost {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    width: 640px;
+    margin-top: 15px;
+    background-color: #313131;
+    color: white;
+}
+
+.OldPostDatum {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.OldPostTitle {
+    width: 290px;
+    font-size: 17px;
+    margin-left: 10px;
+
+}
+
+.OldPostText {
+    width: 290px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.OldPostPicture {
+    position: relative;
+    height: 300px;
+    width: 330px;
+    left: 10px;
+}
+
+.Post {
+    width: 1279px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.PostDatum {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.PostTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PostTitle > b {
+    font-size: 20px;
+}
+
+.PostImage {
+    width: 1279px;
+    height: 550px;
+}
+
+.PostText {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.loader {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: white;
+    justify-content: center;  /*Position mitte*/
+    align-items: center;
+}
+
+.loader > img {
+    width: 120px;
+}
+
+.slideContainer {
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.Slide {
+    display: flex;
+    width: 600px;
+    height: 800px;
+}
+
+.Slide > img {
+    width: 600px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 30%;
+    font-size: 30px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 30%;
+    font-size: 30px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+/*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px; /*Abstand zur Überschrift*/
+    transform: translate(-50%, -50%);
+    /*display: flex; (seitlich)*/
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #55acee;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #1ed760;
+}
+
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #FF5700;
+}
+
+.social-menu ul li:nth-child(6) a:hover {
+    background-color: #6441a5;
+}
+
+.social-menu ul li:nth-child(7) a:hover {
+    background-color: #F48024;
+}
+
+.social-menu ul li:nth-child(8) a:hover {
+    background-color: #000000;
+}
