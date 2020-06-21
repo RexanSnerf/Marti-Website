@@ -672,6 +672,7 @@ nav {
         margin-right: 150px;
     }
     .Profil{
+        width: 750px;
         left: 200px;
     }
     .GamingText{
@@ -695,7 +696,7 @@ nav {
     }
     .KleinerText{
         width: auto;
-        height: 280px;
+        height: auto;
     }
     .kleinerTextMittePositionieren{
         margin-top: 70px;
