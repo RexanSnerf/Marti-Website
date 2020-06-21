@@ -5,10 +5,11 @@
   </title>
   <link rel="stylesheet" type="text/css" href="Marti.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
   </head>
 
   <body background="Pictures/TechWorld.jpg" style="font-family: Verdana"> <!--Ich finde das gut mit dem Hintergrundbild mehrfach dargestelt, also habe ich es so gelassen.-->
-    <div id="sideBar" style="height: 1160px;">
+    <div id="sideBar">
           <br>
           <center><div class="sideBarTitle"><h3><u>All Sites</u></h3></div> <!--Außer die Seiten die sowieso immer überall erreichbar sich wie z.B. Media.html-->
           <br>
@@ -29,95 +30,74 @@
     <div class="loader">
       <img src="Pictures/loading.gif">
     </div>
-    <div id="div2"><a id="a1" href="index.html" title="Home">Home</a> <center><a href="Media.html" title="Social Media">Social Media</a></center> <a id="a2" href="Contact.html" title="Contact Me">Contact Me</a> <a href="#" class="menu" title="Menu" onclick="openSidebar()"><i class="fa fa-bars"></i></a></div>
+    <nav>
+      <div class="logo">
+        <h4>Marti</h4>
+      </div>
+      <ul class="nav-links">
+        <li class="links"><a href="index.html">Home</a></li>
+        <li class="links"><a href="Media.html">Media</a></li>
+        <li class="links"><a href="Contact.html">Contact</a></li>
+        <li><a href="#" class="menu" title="Menu" onclick="openSidebar()"><i class="fa fa-bars"></i></a></li>
+      </ul>
+    </nav>    
     <div class="NebenÜberschrift"><center><u><h2>Coding</h2></u></center></div>
     <div class="TextBody">
-    <br>
-    Coding is often just a hype. I am having really fun with a coding language or HTML, but after a certain time, I am bored. 
-    <br>
-    I started with <b>HTML</b> because of school. I realized it made really fun and I extended my knowlegde with tutorials.
-    <br>
-    We continued with <b>CSS</b>, but I forgot how CSS works. I want to renew my HTML knowlegde, startover with css and <del>learn Python</del><ins> learn Java Script</ins> with this project. <!--Del, alte Sachen durchstreichen, ins neue Sachen hervorheben-->
-    <br>
-    The first time I coded was with <b>Scratch 2</b>, my best project was Pong with settings. I was really proud of myself. And yes, I made Pong, cause I dont have creativity to create
-    <br>
-    something new by myself. After HTML and CSS we learned <b>Java</b>. My Java Editor at home is weird and I dont have any idea to create something cool with Java.
-    <br>
-    So I didnt continued with Java at home. I wanted to make a Discord bot for my Discord server. So I watched tutorials and created one. I made it with <b>Python</b>, but I didnt
-    <br>
-    learned much, I often just copied the code of the tutorial and changed it a little bit. I even bought a python book in a book store. But I never read it lol.
-    <br>
-    Before the quarantine time, we wanted to start with <b>Arduino</b> at school. But then came Covid-19 and we had only 1 lesson with Arduino. We only talked and made a LED blinking,
-    <br>
-    so it wasnt much. I bought some Arduino Starter Kits and some other stuff on Amazon. Even though I dont like to give money to this fucking rich company.
-    <br>
-    Its the only and easiest way to order something in the internet for me. In these Starter Kits were a lot of differnt sensors and actuators, but also a book and access to a PDF 
-    <br>
-    with explanations to these different hardware parts and the coding of the software. I read this book and build the projects of the book. I usually dont really read books.
-    <br>
-    But during this idk 8 weeks of Lockdown I read even 3 books. 1 because of school, 1 comedy book and this Arduino book. It made really fun and I continued, watched many videos
-    <br>
-    of Arduino Project and build many projects. But I ordered a TFT Display, that doesnt really work, breadboards with to small pin holes (as example to put my Arduino Nano
-    <br> 
-    on the breadboard) and no creativity for new usefull projects. I also accidently deleted all my sketches while reinstalling my Arduino IDE. It was really frustrating at the end.
-    <br> 
-    I still have some components I didnt really used. I hadnt really fun with Arduino anymore and now I make this website. I even started reading my Python book, but I start with
-    <br>
-    Python later. I wanted to start installing everything I need for this project. But I have problems with Python. I am already frustrated. Nice. [Update 2 days later: I realized,
-    <br>
-    that this wouldnt work with Python, so I think I stop reading this book and use Java Script for this website.] During this projects many problems came up and I learned a lot.
-    <br>
-    I really enjoy coding this website and I will continue making this website better and better. 
-    <br>
-    I also plan on creating apps, algorithms, making something with Python(I just dont know what yet.) and doing something with Arduino(I just need a project that could be useful.).
-    <br>
-    <br>
+      <div class="LeftText">
+        <br>
+        Coding is often just a hype. I am having really fun with a coding language or HTML, but after a certain time, I am bored. 
+        I started with <b>HTML</b> because of school. I realized it made really fun and I extended my knowlegde with tutorials.
+        We continued with <b>CSS</b>, but I forgot how CSS works. I want to renew my HTML knowlegde, startover with css and <del>learn Python</del><ins> learn Java Script</ins> with this project. <!--Del, alte Sachen durchstreichen, ins neue Sachen hervorheben-->
+        The first time I coded was with <b>Scratch 2</b>, my best project was Pong with settings. I was really proud of myself. And yes, I made Pong, cause I dont have creativity to create
+        something new by myself. After HTML and CSS we learned <b>Java</b>. My Java Editor at home is weird and I dont have any idea to create something cool with Java.
+        So I didnt continued with Java at home. I wanted to make a Discord bot for my Discord server. So I watched tutorials and created one. I made it with <b>Python</b>, but I didnt
+        learned much, I often just copied the code of the tutorial and changed it a little bit. I even bought a python book in a book store. But I never read it lol.
+        Before the quarantine time, we wanted to start with <b>Arduino</b> at school. But then came Covid-19 and we had only 1 lesson with Arduino. We only talked and made a LED blinking,
+        so it wasnt much. I bought some Arduino Starter Kits and some other stuff on Amazon. Even though I dont like to give money to this fucking rich company.
+        Its the only and easiest way to order something in the internet for me. In these Starter Kits were a lot of differnt sensors and actuators, but also a book and access to a PDF 
+        with explanations to these different hardware parts and the coding of the software. I read this book and build the projects of the book. I usually dont really read books.
+        But during this idk 8 weeks of Lockdown I read even 3 books. 1 because of school, 1 comedy book and this Arduino book. It made really fun and I continued, watched many videos
+        of Arduino Project and build many projects. But I ordered a TFT Display, that doesnt really work, breadboards with to small pin holes (as example to put my Arduino Nano
+        on the breadboard) and no creativity for new usefull projects. I also accidently deleted all my sketches while reinstalling my Arduino IDE. It was really frustrating at the end.
+        I still have some components I didnt really used. I hadnt really fun with Arduino anymore and now I make this website. I even started reading my Python book, but I start with
+        Python later. I wanted to start installing everything I need for this project. But I have problems with Python. I am already frustrated. Nice. [Update 2 days later: I realized,
+        that this wouldnt work with Python, so I think I stop reading this book and use Java Script for this website.] During this projects many problems came up and I learned a lot.
+        I really enjoy coding this website and I will continue making this website better and better. 
+        I also plan on creating apps, algorithms, making something with Python(I just dont know what yet.) and doing something with Arduino(I just need a project that could be useful.).
+        <br>
+        <br>
+      </div>
     </div>
     <br>
     <center><div class="NebenÜberschrift2"><center><u><h2>Problems And Things I have To Do Better Next Time</h2></u></center></div></center>
     <br>
     <div class="TextBody">
-    <br>
-    I already learned of my past projects in HTML, Arduino and other programming languages that I have to name my files right. I often just saved pictures as "jadhsjdhsds" or 
-    <br>
-    something like this. Projects were named like "Project 1, Project 2,...". I changed this and often name my files right. I can get better everytime and I want to improve myself.
-    <br>
-    Mistakes and problems can be really frustrating but u learn a lot of them. I realize that my website doesnt look like a professional website. But maybe I will startover and design
-    <br>
-    it completly different. I found a really amazing <a href="https://theyearofgreta.com/" target="_blank">website</a> while searching for ideas for my website. It even is political and I support the message of this website. 
-    <br>
-    I am sure, I will never create a website as good as this website. But I want to create something like <a href="https://www.templatemonsterpreview.com/demo/51928.html" target="_blank">this</a> would be amazing. This is a huge difference when I compare it
-    <br>
-    with this website. I really want to make my website phone compatible next time. Also I have to better name my classes or id's. I need more structure, the order of my classes and
-    <br>
-    id's in my .css or .js file is really messed up sometimes. I always have to remember what a class or id is for and I have to find it easily. Everything except of the CSS code
-    <br>
-    for <a href="Media.html">the social media site</a> is created by myself and I dont exactly know how it works. I learn with tutorials and websites/apps that explain HTML, Java Script or CSS elements. There wasnt an explanation to the code, but I want to know how this code works and understand it very soon. I had huge problems with the like and dislike function of my memes page. 
-    <br>
-    First I had problems with clicking the like or dislike button and having changes. It saved the new number of likes, but I had to reload the page to see the new number of likes.
-    <br>
-    Then I had problems with increasing the number of likes, if I clicked the like button first and didnt changed my opinion of the memes(didnt clicked the dislike button afterwards).
-    <br>
-    I used "likesPic1 = likesPic1++;", "likesPic1 = likesPic1 += 1;" and "likesPic1 = likesPic1 + 1;". The last two actions just added a 1 at the end to the current number of likes.
-    <br>
-    Even though it doesnt with 2 or when the operator is minus. The first action just increased the number of likes on the website, but didnt saved. Then I tried it again with one of
-    <br>
-    the two other actions, but it never worked. After that I edited it back as it was before. But now it didnt even increased the number of likes on the website. I dont know why.
-    <br>
-    Sometimes everything worked fine, but after refreshing 3-5 times, it stopped working. I often thought about the variable. It could be wrong or the program thinks it is a string.
-    <br>
-    I just wrote "var likesPic1 = localStorage.getItem("likesPic1");", because I learned that u just write "var" in Java Script instead of the usual "int", "string", "boolean" or other types.
-    <br>
-    So I maked sure var "likesPic1" would be an integer and it worked. I was so happy when I solved it. I dont exactly know how long I spend on this mistake, 
-    <br>
-    but maybe 2-3 days / 3-7 hours. I have to design my websites in dark mode. I worked the whole time with the normal white bad design and now I designed the "Skills" site and 
-    <br>
-    I really like it. I dont like this light design. 
-    <br>
-    <br>
-    To be continued ...
-    <br>
-    <br>
+      <div class="LeftText">
+        <br>
+        I already learned of my past projects in HTML, Arduino and other programming languages that I have to name my files right. I often just saved pictures as "jadhsjdhsds" or 
+        something like this. Projects were named like "Project 1, Project 2,...". I changed this and often name my files right. I can get better everytime and I want to improve myself.
+        Mistakes and problems can be really frustrating but u learn a lot of them. I realize that my website doesnt look like a professional website. But maybe I will startover and design
+        it completly different. I found a really amazing <a href="https://theyearofgreta.com/" target="_blank">website</a> while searching for ideas for my website. It even is political and I support the message of this website. 
+        I am sure, I will never create a website as good as this website. But I want to create something like <a href="https://www.templatemonsterpreview.com/demo/51928.html" target="_blank">this</a> would be amazing. This is a huge difference when I compare it
+        with this website. I really want to make my website phone compatible next time. Also I have to better name my classes or id's. I need more structure, the order of my classes and
+        id's in my .css or .js file is really messed up sometimes. I always have to remember what a class or id is for and I have to find it easily. Everything except of the CSS code
+        for <a href="Media.html">the social media site</a> is created by myself and I dont exactly know how it works. I learn with tutorials and websites/apps that explain HTML, Java Script or CSS elements. There wasnt an explanation to the code, but I want to know how this code works and understand it very soon. I had huge problems with the like and dislike function of my memes page. 
+        First I had problems with clicking the like or dislike button and having changes. It saved the new number of likes, but I had to reload the page to see the new number of likes.
+        Then I had problems with increasing the number of likes, if I clicked the like button first and didnt changed my opinion of the memes(didnt clicked the dislike button afterwards).
+        I used "likesPic1 = likesPic1++;", "likesPic1 = likesPic1 += 1;" and "likesPic1 = likesPic1 + 1;". The last two actions just added a 1 at the end to the current number of likes.
+        Even though it doesnt with 2 or when the operator is minus. The first action just increased the number of likes on the website, but didnt saved. Then I tried it again with one of
+        the two other actions, but it never worked. After that I edited it back as it was before. But now it didnt even increased the number of likes on the website. I dont know why.
+        Sometimes everything worked fine, but after refreshing 3-5 times, it stopped working. I often thought about the variable. It could be wrong or the program thinks it is a string.
+        I just wrote "var likesPic1 = localStorage.getItem("likesPic1");", because I learned that u just write "var" in Java Script instead of the usual "int", "string", "boolean" or other types.
+        So I maked sure var "likesPic1" would be an integer and it worked. I was so happy when I solved it. I dont exactly know how long I spend on this mistake, 
+        but maybe 2-3 days / 3-7 hours. I have to design my websites in dark mode. I worked the whole time with the normal white bad design and now I designed the "Skills" site and 
+        I really like it. I dont like this light design. 
+        <br>
+        <br>
+        To be continued ...
+        <br>
+        <br>
+      </div>
     </div>
 
     <script type="text/javascript" src="Marti.js"></script>

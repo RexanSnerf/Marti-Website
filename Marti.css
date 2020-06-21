@@ -50,20 +50,13 @@ body {
     border-radius: 5px;
 }
 
-.menu {
-    position: relative;
-    background-color: rgb(33, 175, 33);
-    left: 1850px;
-    top: -17px;
-}
-
 #sideBar {
-    position: absolute;
+    position: fixed;
     background-color: rgb(49, 49, 49);
     color: white;
     display: none;
     float: left;
-    height: 1fr;
+    height: 110%;
     width: 240px;
     z-index: 2;
     top: -10px;
@@ -103,7 +96,15 @@ body {
 }
 
 .section {
-    width: 800px;
+    width: 799px;
+    height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!1!*/
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+}
+
+.section1 {
+    width: 799px;
     height: 666px; /*666 Die Zahl des Teufels, Bill Gates steckt hinter dieser Website!!1!*/
     border-style: solid;
     border-width: 1px;
@@ -111,7 +112,7 @@ body {
 }
 
 .KleinerText {
-    width: 800px;
+    width: 799px;
     height: 339px;
     float: left;
     border-style: solid;
@@ -123,6 +124,7 @@ body {
     width:  528px;
     height: 666px;
     border-top: solid;
+    border-left: solid;
     border-width: 1px;
     float: right;
 }
@@ -131,6 +133,7 @@ body {
     width: 528px;
     height: 339px;
     border-top: solid;
+    border-left: solid;
     border-width: 1px;
     float: right;
 }
@@ -143,6 +146,14 @@ body {
 }
 
 .TextMittePositionieren {
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TextMittePositionieren1 {
     position: relative;
     margin-top: 20%;
     margin-bottom: 20%;
@@ -487,6 +498,63 @@ body {
     cursor: pointer;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 175, 33);
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+}
+
+.LeftText{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo {
+    color: rgba(255, 255, 255, 0.918);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.nav-links a.menu {
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none; /*Entfernung der List Punkte!!!!*/
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.918);
+    text-decoration: none; /*nicht unterstrichen*/
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav {
+    display: none;
+}
+
+.GamingBody{
+    background: url(Pictures/battlefieldV2.png);
+}
+
+
 /*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
 
 .loader.hidden {
@@ -507,7 +575,7 @@ body {
     left: 50%;
     padding: 0;
     margin: 0;
-    margin-top: 70px; /*Abstand zur Überschrift*/
+    margin-top: 100px; /*Abstand zur Überschrift*/
     transform: translate(-50%, -50%);
     /*display: flex; (seitlich)*/
 }
@@ -566,4 +634,247 @@ body {
 
 .social-menu ul li:nth-child(8) a:hover {
     background-color: #000000;
+}
+
+/*Alles unter diesem Kommentar ist selbst erstellt*/
+
+@media screen and (max-width:1800px){
+    .MainBodyMusic{
+        margin-left: 34px;
+        margin-right: 34px
+    }
+}
+
+@media screen and (max-width:1433px){
+    .Profil{
+        left: 350px;
+    }
+    .MainBodyMusic{
+        margin-left: 0px;
+        margin-right: 0px
+    }
+    .GamingText{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width:1360px){
+    .GamingText{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .TextBody{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .Profil{
+        left: 200px;
+    }
+    .GamingText{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .GamingText{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .section {
+        height: auto;
+        width: auto;
+    }
+    .TextMittePositionieren1{
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    .KleinerText{
+        width: auto;
+        height: 280px;
+    }
+    .kleinerTextMittePositionieren{
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-bottom: 70px;
+    }
+    .section1{
+        width: auto;
+        height: auto;
+    }
+    .TextMittePositionieren{
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    .aside{
+        float: left;
+        width: auto;
+        height: auto;
+    }
+    .aside img{
+        position: relative;
+        margin-top: 0px;
+        left: 8%;
+        width: 765px;
+    }
+    .KleinesBild{
+        width: auto;
+        float: left;
+    }
+    .MittekleinesMusikBild{
+        position: relative;
+        left: 280px;
+    }
+    .NewPostPicture{
+        margin-top: 10px;
+        left: 10px;
+        width: 70%;
+        height: 45%;
+    }
+    #prevBtn{
+        z-index: 1;
+        top: 42%;
+        left: 10%;
+    }
+    #nextBtn{
+        top: 42%;
+        right: 10%;
+    }
+    #Meme{
+        max-width: 964px;
+        height: 7765px;
+    }
+    .likes{
+        max-width: 964px;
+    }
+    .Memes1{
+        float: left;
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+    .Memes2{
+        float: left;
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+    .Memes3{
+        float: left;
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+    .Memes4{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .nav-links {
+        width: 50%;
+    }
+    .TextBody{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Profil{
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:980px){
+    .GamingText{
+        opacity: 1;
+        background-color: #313131;
+    }
+    .GamingBody{
+        background-image: none;
+        background-color: #000000;
+    }
+    .LakeBody{
+        background-image: none;
+        background-color: #000000;
+    }
+    .TextBody{
+        background-color: #313131;
+    }
+    .Blog{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Rechts{
+        float: left;
+    }
+}
+
+@media screen and (max-width:886px){
+    .aside{
+        float: left;
+        height: auto;
+    }
+    .aside img{
+        left: 3%;
+    }
+    .MitteMusikBild{
+        margin-top: 0px;
+    }
+    .KleinesBild img{
+        position: relative;
+        left: 180px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .links {
+        display: none;
+    }
+    .nav {
+        display: block;
+    }
+    .TextBody{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Profil{
+        left: 0px;
+    }
+    .section {
+        width: auto;
+        height: auto;
+    }
+    .section1{
+        width: auto;
+        height: auto;
+    }
+    .KleinerText{
+        width: auto;
+        height: auto;
+    }
+    .TextMittePositionieren1{
+        margin-top: 50px;
+    }
+    .KleinesBild img{
+        position: relative;
+        left: 150px;
+    }
+    .aside{
+        float: unset;
+        height: auto;
+        left: unset;
+        right: unset;
+    }
+    .aside img{
+        float: unset;
+        position: relative;
+        margin-left: 20%;
+        margin-right: auto;
+        left: unset;
+        right: unset;
+        width: auto;
+    }
+    .MitteMusikBild{
+        margin-top: 0px;
+    }
 }
