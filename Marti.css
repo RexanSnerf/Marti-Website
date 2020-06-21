@@ -820,6 +820,14 @@ nav {
     .Done{
         left: 46%;
     }
+    .Post{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: auto;
+    }
+    .PostImage{
+        width: 963px;
+    }
 }
 
 @media screen and (max-width:1024px){
