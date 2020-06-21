@@ -50,12 +50,22 @@
         <li class="links"><a href="Contact.html">Contact</a></li>
         <li><a href="#" class="menu" title="Menu" onclick="openSidebar()"><i class="fa fa-bars"></i></a></li>
       </ul>
-    </nav>    
+    </nav>  
     <div class="NebenÜberschrift"><center><u><h2>Private</h2></u></center></div>
     <br>
-    <div class="SlideContainer">
-      <button id="prevBtn" onclick="nextSlide(-1)"><i class="fa fa-arrow-left"></i></button>  
-      <button id="nextBtn" onclick="nextSlide(1)"><i class="fa fa-arrow-right"></i></button>
+    <div id="Question" style="display: block;">
+      <br>
+      <center class="centerQuestion">What is Marti's last name?</center>
+      <br>
+      <div class="Input">
+        <input type="text" name="LastName" id="LastName">
+      </div>
+      <br>
+      <div class="Done">
+        <a href="#" onclick="Done()">Done</a>
+      </div>
+    </div>
+    <center><div class="SlideContainer">
       <div class="Slide">
         <img src="Pictures/Nature/IMG_20200329_152959.jpg" class="mySlides">
         <img src="Pictures/Nature/IMG_20200316_150338.jpg" class="mySlides">
@@ -66,7 +76,9 @@
         <img src="Pictures/Nature/IMG_20200405_191101.jpg" class="mySlides">
         <img src="Pictures/Nature/IMG_20200411_172258.jpg" class="mySlides"> 
       </div>
-    </div>
+      <button id="prevBtn" onclick="nextSlide(-1)"><i class="fa fa-arrow-left"></i></button>  
+      <button id="nextBtn" onclick="nextSlide(1)"><i class="fa fa-arrow-right"></i></button>
+    </div></center>
 
     <script type="text/javascript" src="Marti.js"></script>
   </body>

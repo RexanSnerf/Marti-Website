@@ -68,6 +68,13 @@ function Start1() {
     document.getElementById("LikesPic1").innerHTML = likesPic1;
 }
 
+function Done() {
+    var LastName = document.getElementById("LastName").value;
+    if (LastName == "Lüdders"){
+        document.getElementById("Question").style.display = "none"
+    }
+}
+
 //so gut wie alles unter diesem Kommentar ist nicht von mir selbst
 
 window.addEventListener("load", function () {

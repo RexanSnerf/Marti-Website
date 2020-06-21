@@ -58,7 +58,7 @@ body {
     float: left;
     height: 110%;
     width: 240px;
-    z-index: 2;
+    z-index: 12;
     top: -10px;
     left: -30px;
 }
@@ -299,6 +299,10 @@ body {
     background-image:url(Pictures/LakeHorizon.jpg);
 }
 
+.LakeBody1 {
+    background-image:url(Pictures/LakeHorizon.jpg);
+}
+
 .TextBody {
     border-style: solid;
     border-width: 1px;
@@ -460,7 +464,6 @@ body {
 
 .slideContainer {
     width: 600px;
-    margin: auto;
     overflow: hidden;
     border-width: 2px;
     border-style: solid;
@@ -476,11 +479,51 @@ body {
     width: 600px;
 }
 
+#Question{
+    position: fixed;
+    background-color: #000000;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+}
+
+.Input{
+    position: relative;
+    display: flex;
+    justify-content: center;  /*Position mitte*/
+    align-items: center;
+    top: 32%;
+}
+
+#Question input{
+    height: 30px;
+}
+
+.Done{
+    position: relative;
+    top: 32%;
+    left: 48.5%;
+    border-style: solid;
+    border-width: 1px;
+    width: 46px;
+    padding: 5px;
+}
+
+.Done a{
+    text-decoration: none;
+    color: blue;
+}
+
+#Question .centerQuestion{
+    position: relative;
+    top: 30%;
+}
+
 #prevBtn {
     position: absolute;
     top: 50%;
     z-index: 10;
-    left: 30%;
+    left: 20%;
     font-size: 30px;
     color: white;
     background-color: #000000;
@@ -491,7 +534,7 @@ body {
     position: absolute;
     top: 50%;
     z-index: 10;
-    right: 30%;
+    right: 20%;
     font-size: 30px;
     color: white;
     background-color: #000000;
@@ -774,6 +817,9 @@ nav {
     .Memes4{
         margin-left: 20%;
     }
+    .Done{
+        left: 46%;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -802,6 +848,10 @@ nav {
         background-image: none;
         background-color: #000000;
     }
+    .LakeBody1{
+        background-image: none;
+        background-color: #313131;
+    }
     .TextBody{
         background-color: #313131;
     }
@@ -811,6 +861,12 @@ nav {
     }
     .Rechts{
         float: left;
+    }
+    #prevBtn{
+        top: 40%;
+    }
+    #nextBtn{
+        top: 40%;
     }
 }
 
