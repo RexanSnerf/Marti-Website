@@ -571,7 +571,8 @@ nav {
 
 .social-menu ul {
     position: absolute;
-    top: 50%;
+    top: 270px;
+    height: 500px;
     left: 50%;
     padding: 0;
     margin: 0;
