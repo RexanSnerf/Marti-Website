@@ -828,6 +828,9 @@ nav {
     .PostImage{
         width: 963px;
     }
+    .social-menu ul{
+        color: white;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -846,7 +849,7 @@ nav {
 @media screen and (max-width:980px){
     .GamingText{
         opacity: 1;
-        background-color: #313131;
+        background-color: rgb(27, 139, 27);
     }
     .GamingBody{
         background-image: none;
@@ -861,7 +864,7 @@ nav {
         background-color: #313131;
     }
     .TextBody{
-        background-color: #313131;
+        background-color: rgb(27, 139, 27);
     }
     .Blog{
         margin-left: 0px;
