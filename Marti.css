@@ -364,7 +364,6 @@ body {
 
 .NewPostText {
     width: 600px;
-    height: 100px;
     margin-left: 10px;
     float: left;
 }
@@ -400,7 +399,6 @@ body {
 
 .OldPostText {
     width: 290px;
-    height: 200px;
     margin-left: 10px;
 }
 
@@ -440,9 +438,7 @@ body {
 }
 
 .PostText {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .loader {
@@ -781,7 +777,7 @@ nav {
         margin-top: 10px;
         left: 10px;
         width: 70%;
-        height: 45%;
+        height: 55%;
     }
     #prevBtn{
         z-index: 1;
