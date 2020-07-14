@@ -827,6 +827,17 @@ nav {
     .social-menu ul{
         color: white;
     }
+    .sideBarTextBox{
+        height: 45px;
+        width: 100px;
+    }
+    .sideBarTextBox:hover{
+        height: 50px;
+        width: 115px;
+    }
+    h3{
+        margin-top: 12px;
+    }
 }
 
 @media screen and (max-width:1024px){
