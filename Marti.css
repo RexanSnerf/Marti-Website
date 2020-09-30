@@ -441,6 +441,17 @@ body {
     margin: 10px;
 }
 
+.Luther {
+    margin: 10px;
+    font-size: 20px
+}
+
+audio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:green;
+}
+
 .loader {
     position: fixed;
     display: flex;
