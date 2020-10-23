@@ -28,12 +28,12 @@ var Downvote = false;
 
 function Upvote1() {
     if (Upvote == false) {
-        if (Downvote == false) { //speichert nicht
+        if (Downvote == false) { 
             newlikesPic1 = likesPic1 += 1;
             localStorage.setItem("likesPic1", newlikesPic1);
             document.getElementById("LikesPic1").innerHTML = likesPic1;
         }
-        else { //funktioniert
+        else {
             newlikesPic1 = likesPic1 += 2;
             localStorage.setItem("likesPic1", newlikesPic1);
             localStorage.getItem("likesPic1");
@@ -46,13 +46,13 @@ function Upvote1() {
 
 function Downvote1() {
     if (Downvote == false) {
-        if (Upvote == false) { //funktioniert
+        if (Upvote == false) { 
             newlikesPic1 = likesPic1 -=1;
             localStorage.setItem("likesPic1", newlikesPic1);
             localStorage.getItem("likesPic1");
             document.getElementById("LikesPic1").innerHTML = likesPic1;
         }
-        else { //funktioniert
+        else { 
             newlikesPic1 = likesPic1 -= 2;
             localStorage.setItem("likesPic1", newlikesPic1);
             localStorage.getItem("likesPic1");
@@ -98,4 +98,37 @@ function showDivs(n) {
     x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
+}
+
+function BildBewegung() {
+    const card = document.querySelector(".AstronautBild");
+    const container = document.querySelector(".container");
+    const body = document.querySelector("body");
+    const nav = document.querySelector("nav");
+    const HauptÜberschrift = document.querySelector("#HauptÜberschrift");
+    const loader = document.querySelector(".loader");
+    body.style.perspective = "900px";
+    body.style.padding = "0";
+    body.style.margin = "0";
+    nav.style.marginTop = "8px";
+    nav.style.marginLeft = "8px";
+    nav.style.marginRight = "8px";
+    HauptÜberschrift.style.marginLeft = "8px";
+    HauptÜberschrift.style.marginRight = "8px";
+    loader.style.width = "100.3.6%";
+    loader.style.height = "102.7%";
+    container.addEventListener("mousemove", (e) => {
+        let xAxis = (window.innerWidth / 2 - e.pageX) /25;
+        let yAxis = (window.innerHeight / 2 - e.pageY) /25;
+        card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+    });
+    //animate in
+    container.addEventListener("mouseenter", e => {
+        card.style.transition = "none";
+    })
+    //animate out
+    container.addEventListener("mouseleave", e => {
+        card.style.transition = "all 0.6s ease";
+        card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    })
 }

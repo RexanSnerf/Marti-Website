@@ -44,10 +44,20 @@ body {
     border-width: 2px;
 }
 
+.container{
+    width: 40%;
+}
+
+.AstronautBild{
+    transform-style: preserve-3d;
+    width: 530px;
+}
+
 #rund {
     width: 530px;
     height: 30%;
     border-radius: 5px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
 }
 
 #sideBar {
@@ -83,6 +93,7 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: white;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
     position: relative;
     left: 580;
     width: 700px;
@@ -200,6 +211,11 @@ body {
     margin-left: 200px;
     margin-right: 200px;
     opacity: 0.7; /*Transparenz*/
+}
+
+.MemesTop {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .MemesHeader {
@@ -604,9 +620,6 @@ nav {
     background: url(Pictures/battlefieldV2.png);
 }
 
-
-/*So gut wie alles unter diesem Kommentar ist nicht von mir selbst!*/
-
 .loader.hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
@@ -880,6 +893,12 @@ nav {
     .LakeBody1{
         background-image: none;
         background-color: #313131;
+    }
+    #rund{
+        box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.2), 0px 0px 50px rgba(255, 255, 255, 0.2);
+    }
+    .Profil{
+        box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.2), 0px 0px 50px rgba(255, 255, 255, 0.2);
     }
     .TextBody{
         background-color: rgb(27, 139, 27);
