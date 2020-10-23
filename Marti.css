@@ -46,11 +46,17 @@ body {
 
 .container{
     width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .AstronautBild{
     transform-style: preserve-3d;
     width: 530px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #rund {
@@ -591,6 +597,9 @@ nav {
 }
 
 .nav-links a.menu {
+    position: relative;
+    top: 0px;
+    right: -210px;
     font-size: 18px;
 }
 
@@ -721,6 +730,9 @@ nav {
         margin-left: 150px;
         margin-right: 150px;
     }
+    .nav-links a.menu{
+        right: -160px;
+    }
 }
 
 @media screen and (max-width:1360px){
@@ -745,6 +757,9 @@ nav {
     .GamingText{
         margin-left: 50px;
         margin-right: 50px;
+    }
+    .nav-links a.menu{
+        right: -140px;
     }
 }
 
@@ -862,6 +877,9 @@ nav {
     h3{
         margin-top: 12px;
     }
+    .nav-links a.menu{
+        right: -110px;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -874,6 +892,9 @@ nav {
     }
     .Profil{
         left: 100px;
+    }
+    .nav-links a.menu{
+        right: -70px;
     }
 }
 
@@ -893,6 +914,9 @@ nav {
     .LakeBody1{
         background-image: none;
         background-color: #313131;
+    }
+    .container{
+        width: 100%;
     }
     #rund{
         box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.2), 0px 0px 50px rgba(255, 255, 255, 0.2);
@@ -936,6 +960,9 @@ nav {
 }
 
 @media screen and (max-width:800px){
+    .nav-links a.menu{
+        right: -170px;
+    }
     .links {
         display: none;
     }
