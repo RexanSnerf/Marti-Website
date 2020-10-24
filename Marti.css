@@ -101,7 +101,6 @@ body {
     border-color: white;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
     position: relative;
-    left: 580;
     width: 700px;
 }
 
@@ -201,6 +200,14 @@ body {
     border-style: solid;
     border-color: #1ed760;
     border-width: 1px;
+}
+
+.MemesFirst{
+    display: block;
+}
+
+.MemesSecond{
+    display: none;
 }
 
 .DarkModeBody {
@@ -496,6 +503,7 @@ audio{
     overflow: hidden;
     border-width: 2px;
     border-style: solid;
+    box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.2), 0px 0px 50px rgba(255, 255, 255, 0.2);
 }
 
 .Slide {
@@ -764,6 +772,38 @@ nav {
 }
 
 @media screen and (max-width:1100px){
+    #sidebar{
+        font-size: 18.5px;
+    }
+    #sidebar .sideBarTextBox{
+        height: 55px;
+        width: 110px;
+    }
+    #sidebar .sideBarTextBox:hover{
+        height: 60px;
+        width: 120px;
+    }
+    nav{
+        height: 40px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .nav-links li a{
+        font-size: 18px;
+    }
+    .nav-links a.menu{
+        font-size: 23px;
+    }
+    #HauptÜberschrift{
+        font-size: 15px;
+    }
+    .NebenÜberschrift{
+        font-size: 17px;
+    }
+    .social-menu ul li h4{
+        font-size: 18px;
+    }
     .GamingText{
         margin-left: 50px;
         margin-right: 50px;
@@ -773,25 +813,28 @@ nav {
         width: auto;
     }
     .TextMittePositionieren1{
-        margin-top: 150px;
-        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .KleinerText{
         width: auto;
         height: auto;
     }
     .kleinerTextMittePositionieren{
-        margin-top: 70px;
-        margin-left: 50px;
-        margin-bottom: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .section1{
         width: auto;
         height: auto;
     }
     .TextMittePositionieren{
-        margin-top: 200px;
-        margin-left: 100px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .aside{
         float: left;
@@ -812,11 +855,44 @@ nav {
         position: relative;
         left: 280px;
     }
+    .NewState{
+        font-size: 18.5px;
+    }
+    .NewPostDatum{
+        font-size: 18.5px;
+    }
+    .NewPostTitle{
+        width: 900px;
+    }
     .NewPostPicture{
         margin-top: 10px;
         left: 10px;
-        width: 70%;
-        height: 55%;
+        width: 98.0%;
+        height: 50%;
+    }
+    .NewPostText h4{
+        margin-right: 18px;
+        font-size: 15.74px;
+        width: 946px;
+    }
+    .OldState{
+        font-size: 18.5px;
+    }
+    .OldPost{
+        width: 950px;
+    }
+    .OldPostText{
+        width: 600px;
+        height: 170px;
+        font-size: 18.5px;
+    }
+    .Post{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: auto;
+    }
+    .PostImage{
+        width: 963px;
     }
     #prevBtn{
         z-index: 1;
@@ -829,10 +905,48 @@ nav {
     }
     #Meme{
         max-width: 964px;
-        height: 7765px;
+        height: 8815px;
+    }
+    #Button{
+        font-size: 18px;
+    }
+    .MemesTop{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .MemesHeader{
+        font-size: 18px;
+    }
+    .MemesFirst{
+        display: none;
+    }
+    .MemesSecond{
+        display: block;
+    }
+    #Meme img{
+        position: relative;
+        display: block;
+        margin-left: 0px;
+        margin-right: 50px;
+        width: 964px;
     }
     .likes{
+        height: 50px;
         max-width: 964px;
+    }
+    #LikesPic1{
+        font-size: 38px;
+        left: 80px;
+    }
+    .Upvoten{
+        height: 50px;
+        width: 50px;
+    }
+    .Downvoten{
+        height: 50px;
+        width: 50px;
+        left: 125px;
     }
     .Memes1{
         float: left;
@@ -855,24 +969,8 @@ nav {
     .Done{
         left: 46%;
     }
-    .Post{
-        margin-left: 0px;
-        margin-right: 0px;
-        width: auto;
-    }
-    .PostImage{
-        width: 963px;
-    }
     .social-menu ul{
         color: white;
-    }
-    .sideBarTextBox{
-        height: 45px;
-        width: 100px;
-    }
-    .sideBarTextBox:hover{
-        height: 50px;
-        width: 115px;
     }
     h3{
         margin-top: 12px;
